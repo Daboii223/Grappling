@@ -28,7 +28,7 @@ public class Grappling : MonoBehaviour
             StopGrapple();
         }
     }  
-    void Lateupdate() 
+    void LateUpdate() 
         {
             DrawRope();
         } 
