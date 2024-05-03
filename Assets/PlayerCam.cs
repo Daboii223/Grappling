@@ -15,6 +15,7 @@ public class NewBehaviourScript : MonoBehaviour
   
     private void Start()
     {
+        // hides and locks the mouse when playing
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
